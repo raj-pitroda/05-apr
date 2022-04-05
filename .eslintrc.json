@@ -1,0 +1,16 @@
+{
+    "extends": [],
+    "rules": {
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "no-shadow": "off"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "legacyDecorators": true
+        }
+    },
+    "globals": {
+        "JSX": true
+    },
+    "parser": "@typescript-eslint/parser"
+}
